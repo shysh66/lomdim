@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.2.0 (2026-02-11)
+
+### Improved (Zone A - Little Explorers)
+- **Junior Math:** Wrong answers now stay grayed out so kids can see which options they already tried
+- **First Word Game:** Now has stages with 5 randomized words per stage
+  - Progress bar shows current word in stage
+  - After completing a stage, kids can:
+    - Continue to next stage
+    - Retry with new randomized words
+    - Return to menu
+  - Added more words (20 total) for variety
+
+### Fixed
+- Wrong answer buttons in Zone A games now properly disable and stay grayed out
+
 ## 1.1.0 (2026-02-11)
 
 ### Added

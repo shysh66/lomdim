@@ -78,6 +78,8 @@ export const JuniorMathGame = () => {
   };
 
   const handleAnswer = (selected: number) => {
+    if (disabledOptions.includes(selected)) return;
+    
     if (selected === question.answer) {
       speak('נכון! כל הכבוד!');
       setShowCorrect(true);
@@ -88,10 +90,11 @@ export const JuniorMathGame = () => {
     } else {
       speak('נסה שוב');
       addXP(0, 'math', false);
-      setErrors(errors + 1);
+      const newErrors = errors + 1;
+      setErrors(newErrors);
       setDisabledOptions([...disabledOptions, selected]);
 
-      if (errors >= 1) {
+      if (newErrors >= 2) {
         setShowHint(true);
       }
     }

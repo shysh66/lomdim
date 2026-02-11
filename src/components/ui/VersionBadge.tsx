@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-export const APP_VERSION = '1.1.0';
+export const APP_VERSION = '1.2.0';
 
 export const VersionBadge = () => {
   return (
