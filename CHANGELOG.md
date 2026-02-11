@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.1 (2026-02-11)
+
+### Fixed
+- **Sorter Game:** Fixed color sorting level - replaced ambiguous items (butterfly, fish, diamond) with clearly colored items:
+  - Red: Apple 🍎, Strawberry 🍓, Red Heart ❤️
+  - Blue: Cap 🧢, Whale 🐳, Blue Heart 💙
+
 ## 1.2.0 (2026-02-11)
 
 ### Improved (Zone A - Little Explorers)

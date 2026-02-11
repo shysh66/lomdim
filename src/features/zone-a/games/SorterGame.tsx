@@ -30,10 +30,10 @@ const LEVELS: Level[] = [
     items: [
       { id: '1', emoji: '🍎', category: 'red' },
       { id: '2', emoji: '🍓', category: 'red' },
-      { id: '3', emoji: '🌹', category: 'red' },
-      { id: '4', emoji: '🐟', category: 'blue' },
-      { id: '5', emoji: '🦋', category: 'blue' },
-      { id: '6', emoji: '💎', category: 'blue' },
+      { id: '3', emoji: '❤️', category: 'red' },
+      { id: '4', emoji: '🧢', category: 'blue' },
+      { id: '5', emoji: '🐳', category: 'blue' },
+      { id: '6', emoji: '💙', category: 'blue' },
     ],
   },
   {
