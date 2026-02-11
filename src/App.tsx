@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { GameProvider } from '@/contexts/GameContext';
+import { VersionBadge } from '@/components/ui/VersionBadge';
 import { HomePage } from '@/features/home/HomePage';
 import { ZoneAMenu } from '@/features/zone-a/ZoneAMenu';
 import { SorterGame } from '@/features/zone-a/games/SorterGame';
@@ -17,6 +18,7 @@ export const App = () => {
   return (
     <GameProvider>
       <BrowserRouter>
+        <VersionBadge />
         <Routes>
           <Route path="/" element={<HomePage />} />
           
