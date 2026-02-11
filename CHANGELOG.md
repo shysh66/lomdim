@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.1.0 (2026-02-11)
+
+### Added
+- Expanded Math Challenge with 21 progressive levels:
+  - 4 levels of addition (up to 5, 10, 20, 50)
+  - 4 levels of subtraction (up to 5, 10, 20, 50)
+  - 2 mixed addition/subtraction levels
+  - 5 multiplication levels (tables 2-10)
+  - 3 division levels
+  - 3 advanced challenge levels
+- Level selection screen in Math Challenge
+- Trophy/Achievement system with 16 trophies:
+  - Streak achievements (5, 10, 20 correct answers)
+  - Subject mastery (addition, subtraction, multiplication, division)
+  - XP milestones (100, 500, 1000 XP)
+  - Special achievements for memory, English, and logic games
+- Trophy display modal in Zone B menu
+- More XP ranks (10 total): Beginner, Explorer, Bronze, Silver, Gold, Platinum, Diamond, Champion, Genius, Legend
+
+### Improved
+- Progress bar now shows accurate progress within current rank
+- Each math level has specific questions-to-pass requirements
+- Better visual feedback for level completion
+
 ## 1.0.1 (2026-02-11)
 
 ### Fixed
