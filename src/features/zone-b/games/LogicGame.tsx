@@ -201,7 +201,7 @@ export const LogicGame = () => {
         >
           <div className="bg-white/10 backdrop-blur rounded-3xl p-8 mb-6 text-center">
             <p className="text-white/60 mb-4">התנין אוכל את המספר הגדול יותר!</p>
-            <div className="flex items-center justify-center gap-6">
+            <div className="flex items-center justify-center gap-6" dir="ltr">
               <span className="text-6xl font-bold text-white">{alligatorQ.num1}</span>
               <span className="text-4xl">❓</span>
               <span className="text-6xl font-bold text-white">{alligatorQ.num2}</span>
@@ -244,7 +244,7 @@ export const LogicGame = () => {
         >
           <div className="bg-white/10 backdrop-blur rounded-3xl p-8 mb-6">
             <p className="text-white/60 mb-4 text-center">מה המספר הבא בסדרה?</p>
-            <div className="flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2" dir="ltr">
               {sequenceQ.sequence.map((num, i) => (
                 <motion.div
                   key={i}

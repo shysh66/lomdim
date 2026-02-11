@@ -160,7 +160,7 @@ export const MathChallenge = () => {
           className="max-w-md mx-auto"
         >
           <div className="bg-white/10 backdrop-blur rounded-3xl p-8 mb-6">
-            <p className="text-6xl font-bold text-white text-center">
+            <p className="text-6xl font-bold text-white text-center" dir="ltr">
               {question.num1} {question.operator} {question.num2} = ?
             </p>
           </div>

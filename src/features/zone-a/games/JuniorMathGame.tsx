@@ -134,7 +134,7 @@ export const JuniorMathGame = () => {
             <Volume2 size={24} className="text-blue-500" />
           </button>
 
-          <div className="flex items-center justify-center gap-4 flex-wrap">
+          <div className="flex items-center justify-center gap-4 flex-wrap" dir="ltr">
             <div className="flex flex-col items-center">
               <div className={`flex flex-wrap justify-center gap-1 max-w-[120px] ${showHint ? 'animate-bounce' : ''}`}>
                 {Array.from({ length: question.num1 }).map((_, i) => (
